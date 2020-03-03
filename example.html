@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title | Desc</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link href="fontawesome-free/css/all.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <ul class="list-group mt-5 mb-5">
+                <li class="list-group-item">
+                    <img src="img/header.PNG" class="img-fluid">
+                </li>
+                <li class="list-group-item active">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <p class="lead">Connect with us on social media</p>
+                    <p>Follow us and get updates delivered to your favorite social media channel. </p>
+                        </div>
+                        
+                    </div>
+                    
+                </li>
+                <li class="list-group-item">
+                    <div class="row clickable-row" data-href="//web.com">
+                        <div class="offset-md-2 col-2 pr-5">
+                            <img src="img/rss.png" height="50px">
+                        </div>
+                        <div class="col-8">
+                            <p>
+                                Visit us online<br>
+                                http://web.com
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row clickable-row" data-href="//web.com">
+                        <div class="offset-md-2 col-2 pr-5">
+                            <img src="img/facebook.png" alt="" height="50px">
+                        </div>
+                        <div class="col-8">
+                            <p>
+                                Facebook<br>
+                                Become a fan
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row clickable-row" data-href="//web.com">
+                        <div class="offset-md-2 col-2 pr-5">
+                            <img src="img/twitter.png" alt="" height="50px">
+                        </div>
+                        <div class="col-8">
+                            <p>
+                                Twitter<br>
+                                Follow us
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row clickable-row" data-href="//web.com">
+                        <div class="offset-md-2 col-2 pr-5">
+                            <img src="img/instagram.png" alt="" height="50px">
+                        </div>
+                        <div class="col-8">
+                            <p>
+                                Instagram<br>
+                                Follow us
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row clickable-row" data-href="//web.com">
+                        <div class="offset-md-2 col-2 pr-5">
+                            <img src="img/android.png" alt="" height="50px">
+                        </div>
+                        <div class="col-8">
+                            <p>
+                                Google Play Store<br>
+                                Download our android app
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row clickable-row" data-href="//web.com">
+                        <div class="offset-md-2 col-2 pr-5">
+                            <img src="img/apple.png" alt="" height="50px">
+                        </div>
+                        <div class="col-8">
+                            <p>
+                                Instagram<br>
+                                Download our iphone app
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row clickable-row" data-href="mailto:email.com">
+                        <div class="offset-md-2 col-2 pr-5">
+                            <img src="img/email.png" alt="" height="50px">
+                        </div>
+                        <div class="col-8">
+                            <p>
+                                Feel free to contact us<br>
+                                email.com
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row clickable-row" data-href="tel:+62">
+                        <div class="offset-md-2 col-2 pr-5">
+                            <img src="img/phone.png" alt="" height="50px">
+                        </div>
+                        <div class="col-8">
+                            <p>
+                                Reach us by phone<br>
+                                +62
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            Copyright © 2020, Title, Powered by <a href="https://www.doganbilisim.com.tr/">Doğan</a>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </li>
+              </ul>
+        </div>
+    </div>
+    
+    <script src="bs/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="bs/js/popper.min.js"></script>
+    <script src="bs/js/bootstrap.min.js"></script>
+    <script src="fa/js/fontawesome.min.js"></script>
+    <script>
+    $( function() {
+        $(".clickable-row").click(function() {
+            window.location = $(this).data("href");
+        });
+    })
+    </script>
+</body>
+</html>
